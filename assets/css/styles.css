@@ -273,9 +273,8 @@ footer #linksAndContacts{
   /*min-height: 400px;*/
 }
 
-footer #linksAndContacts #links,
-footer #linksAndContacts #contacts{
-  
+footer #linksAndContacts #links{
+  /*margin-right: 90px;*/
 }
 
 footer #linksAndContacts #contacts{

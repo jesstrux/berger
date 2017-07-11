@@ -2,23 +2,34 @@
     <div id="linksAndContacts">
         <div class="container">
             <div class="layout justified">
-                <div id="links">
-                    <h3>Quick Links</h3>
-                    <ul>
-                        <li><a href="index.php">Home</a></li>
-                        <li><a href="about.php">About Us</a></li>
-                        <li><a href="products.php">Product Catalog</a></li>
-                        <li><a href="contacts.php">Contact Us</a></li>
-                    </ul>
+                <div class="layout justified flex" style="max-width: 450px;">
+                    <div id="links">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="about.php">About Us</a></li>
+                            <li><a href="products.php">Product Catalog</a></li>
+                            <li><a href="contacts.php">Contact Us</a></li>
+                        </ul>
+                    </div>
+
+                    <div id="social_networks">
+                        <h3>Social Networks</h3>
+                        <ul>
+                            <li><a href="https://facebook.com/">Facebook</a></li>
+                            <li><a href="https://twitter.com/">Twitter</a></li>
+                            <li><a href="https://instaram.com/">Instagram</a></li>
+                        </ul>
+                    </div>
                 </div>
 
                 <div id="contacts">
                     <h3>Contact Us</h3>
-                    <ul>
-                        <li><a href="link1">link 1</a></li>
-                        <li><a href="link2">Mbozi Road , Chang’ombe, Dar-es-salaam. </a></li>
-                        <li><a href="link3">Tanzania</a></li>
-                        <li><a href="link4">+255 688 000 777</a></li>
+                    <ul style="list-style-type: none; padding-left: 0;">
+                        <li>Berger Paints Tanzania</li>
+                        <li>Mbozi Road, Chang’ombe, Dar-es-salaam.</li>
+                        <li>Tanzania</li>
+                        <li>+255 688 000 777</li>
                     </ul>
                 </div>
             </div>
