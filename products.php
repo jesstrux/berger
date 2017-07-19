@@ -1,9 +1,9 @@
 <?php include 'includes/templates/header.php'; ?>
     <div id="banner">
         <div class="container layout vertical center-justified">
-            <h1>PRODUCT CATALOG</h1>
+            <h1>PRODUCTS</h1>
             <p>
-                Check out what we have to offer, bet you're gonna love it.
+                We deal in a diversity of paint products, please check them out below.
             </p>
         </div>
     </div>

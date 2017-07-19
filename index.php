@@ -33,7 +33,6 @@
         </div>
     </div>
 
-
     <div id="sampleProductCatalog" class="text-center">
         <h1 class="section-title">
             Our Products

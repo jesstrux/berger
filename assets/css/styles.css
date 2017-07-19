@@ -1,4 +1,18 @@
 @font-face {
+  font-family: 'Open Sans Light';
+  src: url("../fonts/OpenSans-Light.ttf");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/OpenSans-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Choplin Light';
   src: url("../fonts/choplin/Choplin-ExtraLight.otf");
   font-weight: 100;
@@ -26,6 +40,10 @@ body{
 
   --app-primary-color: #000;
   --app-accent-color: #e91e63;
+
+  --app-light-color: #f6f3eb;
+  --app-primary-color: #0082ff;
+  --app-accent-color: #fbbd0e;
 }
 
 .text-center{
@@ -110,25 +128,28 @@ body{
 #siteHeader nav a:hover{}
 
 
-#banner{
+#banner, .banner{
   background: #f9f9f9;
   height: 100vh;
   height: calc(100vh - 80px);
 }
 
-#banner .container{
+#banner .container, 
+.banner .container{
   position: relative;
   height: calc(100% - 6em);
   max-width: 700px;
 }
 
-#banner h1{
+#banner h1,
+.banner h1{
   font-size: 4em;
   margin: 0;
   /*padding: 0 2em;*/
 }
 
-#banner p{
+#banner p,
+.banner p{
   margin: 10px 0;
   font-size: 2em;
   font-family: "choplin light"
@@ -322,4 +343,123 @@ footer #bottomLogo{
 
 footer #copyrightText{
   font-family: "Choplin light"
+}
+
+
+/*ABOUT PAGE*/
+#aboutPage{
+  font-family: "Choplin light";
+}
+
+#aboutPage h2{
+  font-size: 2em;
+}
+
+#aboutPage p{
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+#aboutPage .banner{
+  height: auto;
+  padding: 9em 0;
+}
+
+#aboutPage .banner h1{
+  font-size: 3.5em
+}
+
+#aboutPage .banner p{
+  font-size: 1.9em
+}
+
+#companyBackground{
+  padding: 8em 0;
+  padding-right: 2em;
+  font-family: "Choplin light"
+}
+
+#companyBackground .potrait-image{
+  width: 380px;
+  height: 320px;
+  margin-right: 80px;
+  background: #f0f0f0;
+  margin-top: 30px;
+}
+
+#whatWeDo{
+  background: #f8f8f8;
+  padding: 6em 16em;
+  padding-top: 8em;
+}
+
+#whatWeDo h2, #whatWeDo p{
+  margin: 5px;
+}
+
+#whatWeDo h2{
+  font-size: 2.5em;
+  border-bottom: 1px solid #000;
+  display: inline-block;
+  padding-right: 2em;
+}
+
+#whatWeDo p{
+  font-size: 1.3em;
+  display: none;
+}
+
+#whatWeDo ul{
+  margin-left: 5px;
+  padding: 0;
+  padding-left: 30px;
+  list-style-type: circle;
+}
+
+#whatWeDo ul li{
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
+
+#meetTheTeam{
+  padding: 4em 0;
+  padding-top: 6em;
+}
+
+#meetTheTeam #teamMembers{
+  padding: 40px 0;
+}
+
+#meetTheTeam .team-member{
+  max-width: 50%;
+}
+
+#meetTheTeam .team-member .image,
+#meetTheTeam .team-member .text{
+  height: 150px;
+  text-align: left;
+}
+
+#meetTheTeam .team-member .image{
+  background: #f0f0f0;
+  width: 40%;
+}
+
+#meetTheTeam .team-member .text{
+  padding: 20px;
+  padding-top: 10px;
+  font-family: "Open Sans Light";
+  width: 60%;
+}
+
+#meetTheTeam .team-member .text h3{
+  margin: 0;
+}
+
+#meetTheTeam .team-member .text h5{
+  margin-top: 0;
+  margin-bottom: 5px;
+  padding: 0;
+  font-size: 0.95em;
+  color: #999;
 }

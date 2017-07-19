@@ -26,7 +26,7 @@
                 <div id="contacts">
                     <h3>Contact Us</h3>
                     <ul style="list-style-type: none; padding-left: 0;">
-                        <li>Berger Paints Tanzania</li>
+                        <li>Simba Paints</li>
                         <li>Mbozi Road, Chang’ombe, Dar-es-salaam.</li>
                         <li>Tanzania</li>
                         <li>+255 688 000 777</li>
@@ -38,7 +38,7 @@
 
     <div id="copyright">
         <div class="container layout center justified" style="min-height: inherit;">
-            <a href="index.php" id="bottomLogo">Berger</a>
+            <a href="index.php" id="bottomLogo"><?php echo $site_name ?></a>
             <div id="copyrightText">
                 Copyright © 2017 All rights reserved.
             </div>

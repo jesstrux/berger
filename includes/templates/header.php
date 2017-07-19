@@ -1,4 +1,4 @@
-<?php $site_name = "Berger" ?>
+<?php $site_name = "Simbapaints" ?>
 <!DOCTYPE html>
     <html lang="en">
     <head>
