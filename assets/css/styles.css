@@ -155,6 +155,20 @@ body{
   font-family: "choplin light"
 }
 
+.banner{
+  height: auto;
+  padding: 9em 0;
+  background: #f0f0f0;
+}
+
+.banner h1{
+  font-size: 3.5em
+}
+
+.banner p{
+  font-size: 1.9em
+}
+
 
 #callCards{
   margin-bottom: 4em;
@@ -360,20 +374,6 @@ footer #copyrightText{
   line-height: 1.5em;
 }
 
-#aboutPage .banner{
-  height: auto;
-  padding: 9em 0;
-  background: #f0f0f0;;
-}
-
-#aboutPage .banner h1{
-  font-size: 3.5em
-}
-
-#aboutPage .banner p{
-  font-size: 1.9em
-}
-
 #theObvious{
   padding-top: 6em;
 }
@@ -498,4 +498,39 @@ footer #copyrightText{
   padding: 0;
   font-size: 0.95em;
   color: #999;
+}
+
+
+/*PRODUCTS PAGE*/
+#productsPage .banner{
+  background: #fff;
+  padding-bottom: 5em;
+}
+#productCatalog{
+  padding-bottom: 6em;
+}
+
+#productCatalog .product-item{
+  margin: 5px;
+  width: calc(33.333% - 20px);
+}
+
+#productCatalog .product-item .image{
+  height: 300px;
+  background: #f0f0f0;
+}
+
+#productCatalog .product-item .text h5{
+  font-size: 1.3em;
+  line-height: 1;
+  margin-bottom: 0;
+  font-family: "Open Sans Light";
+  font-weight: bold;
+}
+
+#productCatalog .product-item .text p{
+  margin-top: 6px;
+  margin-bottom: 24px;
+  font-size: 1.2em;
+  font-family: "Open Sans Light";
 }

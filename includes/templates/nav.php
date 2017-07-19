@@ -5,7 +5,7 @@
             <a href="index.php">Home</a>
             <a href="about.php">About Us</a>
             <a href="products.php">Product Catalog</a>
-            <a href="events.php">Events</a>
+            <!-- <a href="events.php">Events</a> -->
             <a href="contacts.php">Contact Us</a>
         </nav>
     </div>
