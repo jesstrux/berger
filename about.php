@@ -9,6 +9,44 @@
 	        </div>
 	    </div>
 
+	    <div id="theObvious">
+	    	<div class="container">
+	    		<div class="layout">
+			    	<div id="ourVision" class="obvious-item">
+			    		<i class="fa fa fa-lightbulb-o"></i>
+			    		<div class="text">
+			    			<h3>Our Vision</h3>
+			    			<p>
+			    				Lorem impedit nisi quam optio ducimus fuga incidunt voluptatum, iusto! i quam optio ducimus fuga
+			    			</p>
+			    		</div>
+			    	</div>
+
+			    	<div id="ourMission" class="obvious-item">
+			    		<i class="fa fa-send-o"></i>
+			    		<div class="text">
+			    			<h3>Our Mission</h3>
+			    			<p>
+			    				ullam earum, impedit nisi quam optio ducimus fuga incidunt voluptatum, iusto! i quam optio ducimus fuga
+			    			</p>
+			    		</div>
+			    	</div>
+
+			    	<div id="ourValues" class="obvious-item">
+			    		<i class="fa fa-heart-o"></i>
+			    		<div class="text">
+			    			<h3>Our Values</h3>
+			    			<p>
+			    				Esse dolores sunt nemo consequuntur aut maxime maiores. Sapiente rem i quam optio ducimus fuga
+			    			</p>
+			    		</div>
+			    	</div>
+			    </div>
+	    	</div>
+	    </div>
+
+	    <hr style="border: none; border-bottom: 1px solid #ddd; width: 30%; margin: auto; margin-top: 70px">
+
 	    <div id="companyBackground" class="container">
 	    	<div class="layout">
 	    		<div class="potrait-image"></div>

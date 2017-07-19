@@ -41,9 +41,9 @@ body{
   --app-primary-color: #000;
   --app-accent-color: #e91e63;
 
-  --app-light-color: #f6f3eb;
+  /*--app-light-color: #f6f3eb;
   --app-primary-color: #0082ff;
-  --app-accent-color: #fbbd0e;
+  --app-accent-color: #fbbd0e;*/
 }
 
 .text-center{
@@ -363,6 +363,7 @@ footer #copyrightText{
 #aboutPage .banner{
   height: auto;
   padding: 9em 0;
+  background: #f0f0f0;;
 }
 
 #aboutPage .banner h1{
@@ -373,8 +374,43 @@ footer #copyrightText{
   font-size: 1.9em
 }
 
+#theObvious{
+  padding-top: 6em;
+}
+
+#theObvious .obvious-item{
+  margin: 0 20px;
+  min-width: calc(33.333% - 40px);
+  position: relative;
+}
+
+#theObvious .obvious-item i{
+  font-size: 4.6em;
+  position: absolute;
+  display: block;
+  left: 0;
+  right: 0;
+  top: 20%;
+  margin: auto;
+  text-align: center;
+  z-index: -1;
+  opacity: 0.1;
+}
+
+#theObvious .obvious-item h3{
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+#theObvious .obvious-item p{
+  font-size: 1em;
+  font-family: "Open Sans Light";
+}
+
 #companyBackground{
   padding: 8em 0;
+  padding-top: 6em;
   padding-right: 2em;
   font-family: "Choplin light"
 }
@@ -388,7 +424,7 @@ footer #copyrightText{
 }
 
 #whatWeDo{
-  background: #f8f8f8;
+  background: #f0f0f0;
   padding: 6em 16em;
   padding-top: 8em;
 }
