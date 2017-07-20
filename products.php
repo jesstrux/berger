@@ -1,4 +1,7 @@
-<?php include 'includes/templates/header.php'; ?>
+<?php
+    $page = "products";
+    include 'includes/templates/header.php';
+?>
     <div id="productsPage">
     	<div class="banner">
     		<div class="container layout vertical center-justified">
