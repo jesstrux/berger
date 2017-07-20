@@ -7,7 +7,7 @@
         <div class="slider">
             <div id="slideScroller" class="layout slide-scroller">
                 <?php
-                    for ($i=0; $i < 5; $i++) { 
+                    for ($i=0; $i < 4; $i++) { 
                         echo '
                             <div class="slide-item" style="background-image: url(assets/images/img'.($i + 1).'.jpg)" alt=""></div>
                         ';
@@ -108,7 +108,7 @@
             scroller.style.transform = "translateX("+ counter * - 100 +"%)";
             counter++;
 
-            if(counter == 5)
+            if(counter == 4)
                 counter = 0;
         }, 3500);
     </script>
