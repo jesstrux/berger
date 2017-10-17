@@ -5,7 +5,7 @@
     <div id="productsPage">
     	<div class="banner">
     		<div class="container layout vertical center-justified">
-	            <h1>PRODUCTS</h1>
+	            <h1>Products</h1>
 	            <p>
 	                We deal in a diversity of paint products, please check them out below.
 	            </p>

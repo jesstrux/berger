@@ -5,22 +5,23 @@
 	<div id="aboutPage">
 	    <div class="banner">
 	        <div class="container layout vertical center-justified">
-	            <h1>ABOUT US</h1>
+	            <h1>About Us</h1>
 	            <p>
-	                Here's more about us, who we are, what it is we do and how we do it.
+	            	Simba paints was incepted in the year 2012 to become a solution
+	            	for bulk paint provision all across the city and nation at large, we work with the simple motto of "getting it just right".
 	            </p>
 	        </div>
 	    </div>
 
 	    <div id="theObvious">
 	    	<div class="container">
-	    		<div class="layout">
+	    		<div class="layout justified">
 			    	<div id="ourVision" class="obvious-item">
 			    		<i class="fa fa fa-lightbulb-o"></i>
 			    		<div class="text">
 			    			<h3>Our Vision</h3>
 			    			<p>
-			    				Lorem impedit nisi quam optio ducimus fuga incidunt voluptatum, iusto! i quam optio ducimus fuga
+			    				To become the quickest connect between an unfinished surface and a finished modern looking memory that will enlighten the minds of whoever sees it.
 			    			</p>
 			    		</div>
 			    	</div>
@@ -30,12 +31,12 @@
 			    		<div class="text">
 			    			<h3>Our Mission</h3>
 			    			<p>
-			    				ullam earum, impedit nisi quam optio ducimus fuga incidunt voluptatum, iusto! i quam optio ducimus fuga
+			    				To reduce the hustle and pain that is associated with finding the correct paint for both customers, builders and designers alike whilst being the lead in our field.
 			    			</p>
 			    		</div>
 			    	</div>
 
-			    	<div id="ourValues" class="obvious-item">
+			    	<!-- <div id="ourValues" class="obvious-item">
 			    		<i class="fa fa-heart-o"></i>
 			    		<div class="text">
 			    			<h3>Our Values</h3>
@@ -43,7 +44,7 @@
 			    				Esse dolores sunt nemo consequuntur aut maxime maiores. Sapiente rem i quam optio ducimus fuga
 			    			</p>
 			    		</div>
-			    	</div>
+			    	</div> -->
 			    </div>
 	    	</div>
 	    </div>
